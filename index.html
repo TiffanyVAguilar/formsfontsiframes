@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://use.typekit.net/tpx1azl.css" />
+    <link rel="stylesheet" type="text/css" href="main.css" />
+    <title>Scary Movies</title>
+  </head>
+  <body>
+    <div class="header">
+      <h2>Scary Movies</h2>
+    </div>
+    <div class="content">
+      <div class="left">
+        <img style="width: 50%;" src="images/scream.jpg" alt="Scream" />
+      </div>
+      <div class="right">
+        <h4>What's Your Favorite Scary Movie?</h4>
+        <form action="success.html" method="get">
+          <label for="fname">First name:</label><br />
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="First Name..."
+          /><br />
+          <label for="lname">Last name:</label><br />
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Last Name..."
+          /><br /><br />
+          <label for="movie">What's your favorite scary movie?</label><br />
+          <input
+            type="text"
+            id="movie"
+            name="movie"
+            placeholder="Scary Movie..."
+          /><br /><br />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <h2>Here are some more movie recommendations!</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/L8ObDHvwLn4"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
